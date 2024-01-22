@@ -1,0 +1,6 @@
+if _G.Games == "Blox Fruit" then
+print("Blox Fruit")
+else
+_G.Mode = "Blade Ball"
+print("Blade Ball")
+end
