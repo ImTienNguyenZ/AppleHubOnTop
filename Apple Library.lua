@@ -128,9 +128,9 @@ local function ripple(button, x, y)
 end
 
 
-function hoho:UpdateWindow(hub, the_game_name, main_color)
+function hoho:Window(hub, the_game_name, main_color)
 	local openned = true
-	local openning = false
+	local openning = true
 	
 	local DevGui = Instance.new("ScreenGui")
 	local Top_Bar = Instance.new("Frame")
