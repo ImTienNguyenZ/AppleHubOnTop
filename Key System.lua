@@ -1,3 +1,7 @@
+local finishedKey = false
+local KeySystemUI = { Closed = false }
+local UIMade = false
+
 local UserInputService = game:GetService("UserInputService")
 local CoreGUI = game:GetService("CoreGui")
 local HttpService = game:GetService("HttpService")
@@ -284,7 +288,7 @@ local function MakeUi(settings)
 	if settings.DiscordInvite ~= "" then
 		local discord = Instance.new("TextButton")
 		discord.Font = Enum.Font.Gotham
-		discord.Text = "Join The Discord Server"
+		discord.Text = "Join the Discord Server"
 		discord.TextColor3 = Color3.new(1, 1, 1)
 		discord.TextSize = 13
 		discord.BackgroundColor3 = Color3.new(0, 0.588235, 0.392157)
@@ -420,6 +424,26 @@ local function MakeUi(settings)
 			end
 		end)
 	end
+end
+
+function KeySystemUI.New(settings)
+	settings = Validate({
+		ApplicationName = "",
+		Name = "",
+		Info = "",
+		DiscordInvite = "",
+		AuthType = "clientid",
+	}, settings or {})
+
+	if typeof(settings.ApplicationName) ~= "string" then
+		warn("ApplicationName needs to be a string!")
+		return
+	end
+	if settings.ApplicationName == "" then
+		warn("ApplicationName can't be empty!")
+		return
+	end
+	MakeUi(settings)
 end
 
 return KeySystemUI
