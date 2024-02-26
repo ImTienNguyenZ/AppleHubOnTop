@@ -407,7 +407,7 @@ TOTEXT.Text = game_name()
 wait(1)
 TOTEXT.Text = "Check Game Is Support..."
 local sp = false
-if game.PlaceId == 7449423635 or game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 8737899170 or game.PlaceId == 6516141723 then
+if game.PlaceId == 7449423635 or game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 8737899170 or game.PlaceId == 6516141723 or game.PlaceId == 6839171747 then
     sp = true
 else
 TOTEXT.Text = "Not Support :("
@@ -585,7 +585,7 @@ if game.PlaceId == 8737899170 then --// Pet Simulator 99
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/39033d9e7359cb61ef38d1eb9b35ded5.lua"))()
 end
 ----------------------------------------------------------------------------------------------------------------------------------------
-if game.PlaceId == 6516141723 then --// Doors
+if game.PlaceId == 6516141723 or game.PlaceId == 6839171747 then --// Doors
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7ade7c44ec07d623d24c9b99ce849412.lua"))()
 end
 ----------------------------------------------------------------------------------------------------------------------------------------
