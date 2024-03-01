@@ -250,7 +250,7 @@ Title.BackgroundTransparency = 1.000
 Title.Position = UDim2.new(0.02, 0, 0.02, 0)
 Title.Size = UDim2.new(0, 483, 0, 31)
 Title.Font = Enum.Font.LuckiestGuy
-Title.Text = "APPLE HUB HUB ".."<font color='rgb(255, 128, 219)'>GEN 3 </font>| Date: <font color='rgb(255, 128, 219)'>" .. os.date("%d/%m/2023") .. "</font> | Game: " .. "<font color='rgb(255, 128, 219)'>" .. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .. " </font>"
+Title.Text = "APPLE ".."<font color='rgb(255, 128, 219)'>HUB </font>| Date: <font color='rgb(255, 128, 219)'>" .. os.date("%d/%m/2023") .. "</font> | Game: " .. "<font color='rgb(255, 128, 219)'>" .. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .. " </font> | <font color='rgb(255, 128, 219)'>" .. _G.TieuDe "</font>"
 Title.RichText = true;
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 12.000
