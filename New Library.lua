@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImTienNguyenZ/AppleHubOnTop/main/Settings"))()
 local library = {}
 local titlefunc = {}
 local UIConfig = {
