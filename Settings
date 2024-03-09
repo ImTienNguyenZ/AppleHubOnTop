@@ -5,3 +5,6 @@ _G.ThongBaoChoose = "Click Button Get Key To Browser Paste !"
 _G.Discord = "https://discord.gg/xbmEYzc5jA"
 _G.YouTube = "https://youtube.com/@imtienguyenz?si=jtJWfW4_Qv46z6bA"
 _G.TikTok = "https://www.tiktok.com/@nguyn.minh.tin66?_t=8ipaIYejJcf&_r=1"
+
+
+getgenv().BanQuyen = "\n Copyright 2023 - 2024 Sieu Thi Space, All Rights Reserved, Copyright Protected By DCMA."
