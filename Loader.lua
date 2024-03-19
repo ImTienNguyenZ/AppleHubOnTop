@@ -1,5 +1,3 @@
--- KEY SYSTEM V2 UI LIBRARY:
--- UI by mr.xrer | Code by mstudio45
 
 local TweenService = game:GetService("TweenService")
 local tweenInfo = TweenInfo.new(1.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
@@ -552,7 +550,7 @@ CoppyDis.MouseButton1Click:Connect(function()
 	end
 end)
 ----------------------------------------------------------------------------------------------------------------------------------------
-local ScreenGui1 = Instance.new("ScreenGui")
+--[[local ScreenGui1 = Instance.new("ScreenGui")
 local ImageButton1 = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
 local UIStroke = Instance.new("UIStroke")
@@ -575,7 +573,7 @@ end)
 UICorner.Parent = ImageButton1
 UIStroke.Color = Color3.fromRGB(252, 3, 161)
 UIStroke.Thickness = 1.5
-UIStroke.Parent = ImageButton1
+UIStroke.Parent = ImageButton1]]
 ----------------------------------------------------------------------------------------------------------------------------------------
 if game.PlaceId == 7449423635 or game.PlaceId == 2753915549 or game.PlaceId == 4442272183 then ---// Blox Fruits
 	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f6f0f8d8d3a9d517f09c2ba863e815d0.lua"))()
